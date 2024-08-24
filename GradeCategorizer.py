@@ -1,5 +1,5 @@
 # M02 Lab - if...else and while
-# Program Name: Grade Categorizer
+# Program Name: GradeCategorizer.py
 # Author: Ben Nall
 # Date 8/24/2024
 # Purpose: This program will take input for student names and gpa's and categorize them into either the dean's list, honor roll, or neither.
