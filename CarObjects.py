@@ -1,3 +1,12 @@
+#Assignment: M03 Lab - Case Study: Lists, Functions, and Classes
+#Class: SDEV 220 | Section: 11P
+#Program Name: CarObjects.py
+#Author: Ben Nall
+#Date: 9/2/2024
+#Purpose: This program creates a class hierarchy for vehicles and a subclass for automobiles. 
+    #It prompts the user to enter details of an automobile and creates an automobile object with the entered details. 
+    #The program continues to create automobile objects until the user chooses to stop.
+
 #defines a superclass Vehicle
 class Vehicle:
     def __init__(self, vehicle_type):
