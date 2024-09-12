@@ -1,6 +1,6 @@
 import sqlite3
 
-# Connect to the SQLite database (books.db)
+# Connect to the database
 conn = sqlite3.connect('books.db')
 cur = conn.cursor()
 
