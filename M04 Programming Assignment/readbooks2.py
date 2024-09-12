@@ -1,7 +1,7 @@
 import csv
 import sqlite3
 
-# Connect to the SQLite database (books.db)
+# Connect to the database
 conn = sqlite3.connect('books.db')
 cur = conn.cursor()
 
@@ -20,7 +20,7 @@ with open('C:/Users/fluff/OneDrive/Documents/GitHub/SDEV-220/M04 Programming Ass
         VALUES (?, ?, ?)
         ''', (title, author, int(year)))
 
-# Commit the changes and close the connection
+# Commit the changes
 conn.commit()
 conn.close()
 
