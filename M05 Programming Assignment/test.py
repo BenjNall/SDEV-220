@@ -14,7 +14,7 @@ class TestSum(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-
+# output of test:
 # .
 # ----------------------------------------------------------------------
 # Ran 1 test in 0.000s
